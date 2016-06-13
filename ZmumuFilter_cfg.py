@@ -23,7 +23,6 @@ process.load('ZmumuFilter.ZmumuFilter.ZmumuFilter_cfi')
 process.ZmumuFilter.csvFileName = cms.string('Zmumu_Run2011A.csv')
 process.ZmumuFilter.minMuonPt = cms.double(20.0)
 process.ZmumuFilter.maxMuonEta = cms.double(2.1)
-process.ZmumuFilter.maxRelIso = cms.double(0.15)
 
 process.maxEvents = cms.untracked.PSet(input = cms.untracked.int32(500000))
 
